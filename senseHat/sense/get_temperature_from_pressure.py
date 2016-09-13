@@ -3,4 +3,4 @@ import json
 
 sense = SenseHat()
 
-print(json.dumps( { 'result': sense.get_temperature_from_pressure() } ))
+print(json.dumps( { 'result': (sense.get_temperature_from_pressure() * 1.8 + 15) } ))

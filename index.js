@@ -4,16 +4,6 @@ var mattdaisleyApi = require('./mattdaisleyApi');
 
 var senseHat = require('./senseHat');
 
-// senseHat.testOutput()
-//   .then(function(result) {
-//     console.log(result);
-
-//     return senseHat.getTemperature();
-//   })
-//   .then(function(temp) {
-//     console.log(temp);
-//   });
-
 var t1 = senseHat.getTemperature();
 var t2 = senseHat.getHumidity();
 var t3 = senseHat.getPressure();
