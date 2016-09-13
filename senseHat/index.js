@@ -56,6 +56,10 @@ senseHat = {
 
   testOutput: function testOutput(options) {
       return runScript('test_output.py');
+  },
+
+  testOutput2: function testOutput2(options) {
+      return runScript('test_output2.py');
   }
 
 };
