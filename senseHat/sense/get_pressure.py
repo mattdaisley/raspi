@@ -3,4 +3,4 @@ import json
 
 sense = SenseHat()
 
-print(json.dumps( { 'result': sense.get_humidity() } ))
+print(json.dumps( { 'result': sense.get_pressure() } ))

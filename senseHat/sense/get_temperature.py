@@ -3,4 +3,4 @@ import json
 
 sense = SenseHat()
 
-print(json.dumps( { 'temperature': sense.get_temperature() } ))
+print(json.dumps( { 'result': sense.get_temperature() } ))
