@@ -1,0 +1,1462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mattdai",
+				"mattdaisley"
+			],
+			[
+				"ov",
+				"overflow-y"
+			],
+			[
+				"inner",
+				"innerContainerTable"
+			],
+			[
+				"builddo",
+				"BuildDom"
+			],
+			[
+				"templjs",
+				"TemplateJSON"
+			],
+			[
+				"listing_i",
+				"listing_type_id"
+			],
+			[
+				"arrtemp",
+				"arrTemplate"
+			],
+			[
+				"total",
+				"total_open_count"
+			],
+			[
+				"news",
+				"newsletter_id"
+			],
+			[
+				"strI",
+				"strItemsList"
+			],
+			[
+				"arrO",
+				"arrOptions"
+			],
+			[
+				"arroptio",
+				"arrOption"
+			],
+			[
+				"obji",
+				"objImpressionsFilter"
+			],
+			[
+				"pr",
+				"property-list"
+			],
+			[
+				"act",
+				"activeTab"
+			],
+			[
+				"LS_",
+				"LS_RESULTS_PER_PAGE"
+			],
+			[
+				"wellcomemat_m",
+				"wellcomemat_media"
+			],
+			[
+				"inc",
+				"incl1	include_once …"
+			],
+			[
+				"str",
+				"strSQL3"
+			],
+			[
+				"elmeid",
+				"elementId"
+			],
+			[
+				"cy",
+				"cycles"
+			],
+			[
+				"puls",
+				"pulseCycles"
+			],
+			[
+				"cyc",
+				"cyclesInterval"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"getpa",
+				"getPageLimit"
+			],
+			[
+				"mess",
+				"messageId"
+			],
+			[
+				"isSig",
+				"isSigningUp"
+			],
+			[
+				"resl",
+				"resolve"
+			],
+			[
+				"interna",
+				"InternalServerError"
+			],
+			[
+				"err",
+				"error404"
+			],
+			[
+				"pass",
+				"password"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 467,
+				"line_ending": "Unix",
+				"name": "var cron = require('node-cron');"
+			}
+		},
+		{
+			"file": "/Users/mattdaisley/repos/www.mattdaisley.com/core/server/app-server.js",
+			"settings":
+			{
+				"buffer_size": 2303,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mattdaisley/repos/www.mattdaisley.com/core/server/api/lifx.js",
+			"settings":
+			{
+				"buffer_size": 6963,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mattdaisleyApi/auth/index.js",
+			"settings":
+			{
+				"buffer_size": 314,
+				"line_ending": "Unix",
+				"name": "var http = require('http');"
+			}
+		},
+		{
+			"file": "mattdaisleyApi/lifx/index.js",
+			"settings":
+			{
+				"buffer_size": 1071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mattdaisleyApi/index.js",
+			"settings":
+			{
+				"buffer_size": 1308,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mattdaisleyApi/config/index.js",
+			"settings":
+			{
+				"buffer_size": 756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mattdaisley/repos/www.mattdaisley.com/core/server/config/index.js",
+			"settings":
+			{
+				"buffer_size": 1395,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "javascr",
+		"selected_items":
+		[
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"javas",
+				"Project: Save As"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"hml",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jsonpr",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jsonpre",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"set synthtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"packcin",
+				"Package Control: Install Package"
+			],
+			[
+				"pacck",
+				"Preferences: Browse Packages"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mattdaisley/repos/raspi",
+		"/Users/mattdaisley/repos/raspi/mattdaisleyApi",
+		"/Users/mattdaisley/repos/raspi/mattdaisleyApi/auth",
+		"/Users/mattdaisley/repos/raspi/mattdaisleyApi/config",
+		"/Users/mattdaisley/repos/raspi/mattdaisleyApi/lifx"
+	],
+	"file_history":
+	[
+		"/Users/mattdaisley/repos/www.mattdaisley.com/core/server/index.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/Render/RenderSectionDirective.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/SectionController.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/MATTService.js",
+		"/Users/mattdaisley/repos/www.rezora.com/matt.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/Util/PhantomAuthorizationService.js",
+		"/Users/mattdaisley/Documents/rezora/rezora-matt-components/content1.html",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/Render/RenderContentDirective.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/renderHTML/RenderContentDirective.js",
+		"/Users/mattdaisley/Documents/rezora/rezora-matt-components/content-image.html",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/renderHTML/BuildDomService.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/renderHTML/SettingsTestService.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/renderHTML/BuildBoxModelService.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/renderHTML/TemplatesService.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/renderHTML/TemplateService.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/manageTemplates/manageTemplates.js",
+		"/Users/mattdaisley/repos/www.rezora.com/admin/agent_brokerage_list.php",
+		"/Users/mattdaisley/repos/www.rezora.com/admin/brokerages_brands_list.php",
+		"/Users/mattdaisley/repos/www.rezora.com/admin/agents.php",
+		"/Users/mattdaisley/repos/www.rezora.com/admin/brokerages_details.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/manageTemplates/public/css/styles.css",
+		"/Users/mattdaisley/repos/www.rezora.com/admin/templates_list.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/manageTemplates/Company/TemplateListService.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/manageTemplates/company/CompanyListController.js",
+		"/Users/mattdaisley/repos/www.rezora.com/mattManageTemplates.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/renderHTML/TemplateController.js",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/renderHTML/Template.js",
+		"/Users/mattdaisley/repos/www.rezora.com/mattRenderHTML.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/Render/Views/template0.html",
+		"/Users/mattdaisley/Documents/raspby/ansible-pi/wpa_supplicant.conf",
+		"/Users/mattdaisley/Documents/raspby/ansible-pi/hosts",
+		"/private/etc/hosts_back",
+		"/usr/local/etc/php/5.5/php.ini",
+		"/Users/mattdaisley/Documents/rezora/tests.txt",
+		"/Users/mattdaisley/repos/www.rezora.com/templateBuilder/public/js/TemplateService.js",
+		"/Users/mattdaisley/Documents/rezora/p2731/output.html",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/Marketing/Template.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_marketing.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_marketing_create_template_list.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_marketing_newsletters_lists.php",
+		"/Users/mattdaisley/repos/www.rezora.com/themes/default/template.php",
+		"/Users/mattdaisley/repos/www.rezora.com/themes/xpressdocs_sso/template.php",
+		"/Users/mattdaisley/repos/www.rezora.com/themes/xpressdocs/template.php",
+		"/Users/mattdaisley/repos/www.rezora.com/dashboard.php",
+		"/Users/mattdaisley/repos/www.rezora.com/dashboard_mylistings.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/newsletters.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/postcards.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/imgtest.php",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing_create_distribute.php",
+		"/Users/mattdaisley/repos/www.rezora.com/create_displayad.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/ImageCapture.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/MLS/Listing.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/global.js",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_dashboard.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/ems/sendgrid_event_listener_v3.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_marketing_newsletters_details.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_create_template.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/library.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/create.php",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing_newsletters_details.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_ourlistings_details.php",
+		"/Users/mattdaisley/repos/www.rezora.com/agent_mylistings_details.php",
+		"/Users/mattdaisley/repos/www.rezora.com/listing_stats_public.php",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing_stats.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/charts.js",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/Charts/Pie.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/Charts/Filter.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing_list_completed.php",
+		"/Users/mattdaisley/repos/www.rezora.com/update_total_counts.php",
+		"/Users/mattdaisley/repos/www.rezora.com/amember/plugins/protect/rezora/rezora.inc.php",
+		"/Users/mattdaisley/Documents/rezora/release_branches.txt",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/ems/ems_send.php",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing_stats_retargeting.php",
+		"/Users/mattdaisley/repos/php_install_instructions",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/global-v1.10.js",
+		"/Users/mattdaisley/repos/www.rezora.com/brand_marketing_details.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/MLS/Listings.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/themes/xpressdocs_sso/styles/styles.css",
+		"/Users/mattdaisley/repos/www.rezora.com/themes/xpressdocs/styles/styles.css",
+		"/Users/mattdaisley/repos/www.rezora.com/themes/default/styles/styles.css",
+		"/Users/mattdaisley/repos/www.rezora.com/admin/brokerages_status_list.php",
+		"/Users/mattdaisley/repos/www.rezora.com/admin/brokerages.php",
+		"/Users/mattdaisley/repos/www.rezora.com/admin/brokerages_list.php",
+		"/Users/mattdaisley/repos/www.rezora.com/agent_mylistings_list.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_ourlistings_list.php",
+		"/Users/mattdaisley/repos/www.rezora.com/agent_mylistings.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_dashboard_recent_postcards.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/image_capture.js",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing_create_linkedin_post.php",
+		"/Users/mattdaisley/repos/www.rezora.com/create_clicktoplay.php",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing_create_listings.php",
+		"/Users/mattdaisley/repos/www.rezora.com/themes/default/template_home.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_ourlistings.php",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/Charts/OpenPie.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/Charts/OpenPie.php",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing_create_template.php",
+		"/Users/mattdaisley/repos/www.rezora.com/admin/templates_details.php",
+		"/Users/mattdaisley/repos/www.rezora.com/themes/default/scripts/scripts.js",
+		"/Users/mattdaisley/repos/www.rezora.com/min/lib/Minify/HTML.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_marketing_list_postcards.php",
+		"/Users/mattdaisley/repos/www.rezora.com/brand_marketing.php",
+		"/Users/mattdaisley/repos/www.rezora.com/marketing_newsletters_mylistings.php",
+		"/Users/mattdaisley/repos/www.rezora.com/cron_import_wellcomemat.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/WellcomeMat/WellcomeMatImport.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/WellcomeMat/test.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/WellcomeMat/Log.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/config/production.php",
+		"/Users/mattdaisley/repos/php71.sh",
+		"/Users/mattdaisley/repos/php55.sh",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_dashboard_brokerage_postcards.php",
+		"/Users/mattdaisley/Documents/rezora/upload-temp/crm_import2016-08-17.txt",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/CloudElements/API.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/agent_crm_review.php",
+		"/Users/mattdaisley/repos/www.rezora.com/agent_crm_process.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/CloudElements/CRMInsertContacts.class.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/classes/CloudElements/CRMcontact.class.php",
+		"/Users/mattdaisley/Documents/rezora/upload-temp/crm_import2016-08-19.txt",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_marketing_newsletters_details_edit.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_list_completed.php",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/config/local.php",
+		"/Users/mattdaisley/repos/www.rezora.com/brand_marketing_details_publish.php",
+		"/Users/mattdaisley/repos/www.rezora.com/broker_create_distribute.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/Util/TinyMCEService.js",
+		"/Users/mattdaisley/repos/www.rezora.com/includes/tinymce/shared.php",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt_generate_html.js",
+		"/Users/mattdaisley/Documents/rezora/output.html",
+		"/Users/mattdaisley/repos/www.rezora.com/scripts/matt/app.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/mattdaisley/repos/www.rezora.com",
+			"/Users/mattdaisley/repos/Ghost/core/server",
+			"/Users/mattdaisley/repos/www.mattdaisley.com/core/server",
+			"/Users/mattdaisley/repos/www.mattdaisley.com/core/client/app",
+			"/Users/mattdaisley/repos/www.mattdaisley.com",
+			"/Users/mattdaisley/repos/testing-socket-io/public",
+			"/Users/mattdaisley/repos/Ghost"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"BrandList",
+			"Company",
+			"consol",
+			"data-inner",
+			"data-inner\n",
+			"innercontainertd",
+			"border",
+			".appen",
+			"Tr",
+			"child",
+			"inner",
+			"console.log",
+			"builddom",
+			"builddtom",
+			"dom",
+			".parent",
+			"columnparentElem",
+			"sectionparentElem",
+			"boxmodel",
+			"buildbox",
+			"ParentElem",
+			"word",
+			"compile",
+			"content",
+			"compile",
+			"table",
+			"inittemplate",
+			"templateconnectionser",
+			"loadtemplate",
+			"gettemplate",
+			"phantom",
+			"templateconnec",
+			"header3",
+			"struserphotopath",
+			"viewon",
+			"total",
+			"total listing views",
+			"recent-slider",
+			"sliderbox",
+			"objFeatu",
+			"dashboard_recentpro",
+			"allow_products",
+			"console.log",
+			"isset($open['max_timestamp']",
+			"data_startdate",
+			"newsletterStats",
+			"public link created",
+			"newsletterStats",
+			"$arrItems2[$index]['click_count']",
+			"$arrItems2[$index]['total_click_count']",
+			"open_count",
+			"open",
+			"data_startdate",
+			"total_open_count",
+			"getStartDate",
+			"data_startdate",
+			"marketing_",
+			"buildChartPie",
+			"Chartist.Line",
+			"marketing_time",
+			"showopens",
+			"showOpens",
+			"as max_timestamp",
+			"max_timestamp",
+			"opens_export_button",
+			"opens_expo",
+			"export",
+			"chartist-plugin-legend.js",
+			"template_home",
+			"template.php",
+			"Chartist.Pie",
+			"pie",
+			"global",
+			"thumbnail",
+			"data_stopdate",
+			"startdate",
+			"buildClicksGraph",
+			"OpensGraph",
+			"buildhead",
+			"total_opens",
+			"$open = ",
+			"clicks_",
+			"click",
+			"display_errors",
+			"marketing_template",
+			"reach",
+			"fb-",
+			"session",
+			"submit",
+			"nl-clicktoplay",
+			"buildContactsList",
+			"to_sched",
+			"#ui-tabs-' + activeTab + ' ",
+			"#ui-tabs-' + activeTab + ' #listing_filter",
+			"initlist",
+			"'load'",
+			"tab",
+			"tabs",
+			"load",
+			"initMap",
+			"unblock",
+			"initList",
+			"active",
+			"blur",
+			"initMap",
+			"listing_filter",
+			"initList",
+			"listing_filter",
+			"tabs",
+			"initfilter",
+			"selected",
+			"get",
+			"private",
+			"properties",
+			".tabs",
+			"listings were found",
+			"no listings",
+			"strResults",
+			"strresults",
+			"include",
+			"strresults",
+			"getListingTemplateSearch",
+			"getListingsTemplateSearch",
+			"strres",
+			"ui-tabs",
+			"include",
+			"strresults",
+			"property-list"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"buildChart"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var cron = require('node-cron');",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/mattdaisley/repos/www.mattdaisley.com/core/server/app-server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/mattdaisley/repos/www.mattdaisley.com/core/server/api/lifx.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4210,
+								3733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1239.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mattdaisleyApi/auth/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var http = require('http');",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "mattdaisleyApi/lifx/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "mattdaisleyApi/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1284,
+								1284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "mattdaisleyApi/config/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/mattdaisley/repos/www.mattdaisley.com/core/server/config/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1215,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "raspi.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"admin/templates_list",
+				"www.rezora.com/admin/templates_list.php"
+			],
+			[
+				"adminbrokerdet",
+				"www.rezora.com/admin/brokerages_details.php"
+			],
+			[
+				"brokerages_brands_list",
+				"www.rezora.com/admin/brokerages_brands_list.php"
+			],
+			[
+				"template.js",
+				"www.rezora.com/scripts/matt/renderHTML/Template.js"
+			],
+			[
+				"templateconto",
+				"www.rezora.com/scripts/matt/renderHTML/TemplateController.js"
+			],
+			[
+				"/admin/agent_brokerage_list.php",
+				"www.rezora.com/admin/agent_brokerage_list.php"
+			],
+			[
+				"admin/agents",
+				"www.rezora.com/admin/agents.php"
+			],
+			[
+				"mattren",
+				"www.rezora.com/mattRenderHTML.php"
+			],
+			[
+				"settings.css",
+				"www.rezora.com/templateBuilder/public/css/settings.css"
+			],
+			[
+				"settingtests",
+				"www.rezora.com/scripts/matt/renderHTML/SettingsTestService.js"
+			],
+			[
+				"content-image.",
+				"rezora/rezora-matt-components/content-image.html"
+			],
+			[
+				"builddomser",
+				"www.rezora.com/scripts/matt/renderHTML/BuildDomService.js"
+			],
+			[
+				"rendercontendir",
+				"www.rezora.com/scripts/matt/Render/RenderContentDirective.js"
+			],
+			[
+				"buildboxmod",
+				"www.rezora.com/scripts/matt/renderHTML/BuildBoxModelService.js"
+			],
+			[
+				"rendesectiondir",
+				"www.rezora.com/scripts/matt/Render/RenderSectionDirective.js"
+			],
+			[
+				"mattsection",
+				"www.rezora.com/scripts/matt/SectionController.js"
+			],
+			[
+				"rendercontent",
+				"www.rezora.com/scripts/matt/Render/RenderContentDirective.js"
+			],
+			[
+				"template0.html",
+				"www.rezora.com/scripts/matt/Render/Views/template0.html"
+			],
+			[
+				"mattservi",
+				"www.rezora.com/scripts/matt/MATTService.js"
+			],
+			[
+				"matt.php",
+				"www.rezora.com/matt.php"
+			],
+			[
+				"templateservices",
+				"www.rezora.com/templateBuilder/public/js/TemplateService.js"
+			],
+			[
+				"phantoatus",
+				"www.rezora.com/scripts/matt/Util/PhantomAuthorizationService.js"
+			],
+			[
+				"templateservic",
+				"www.rezora.com/scripts/matt/TemplateConnectionService.js"
+			],
+			[
+				"templservi",
+				"www.rezora.com/scripts/matt/renderHTML/TemplateService.js"
+			],
+			[
+				"mattrenderhtmltemplatco",
+				"www.rezora.com/scripts/matt/renderHTML/TemplateController.js"
+			],
+			[
+				"mattrenderhtmltemplat.js",
+				"www.rezora.com/scripts/matt/renderHTML/Template.js"
+			],
+			[
+				"renderhtml",
+				"www.rezora.com/mattRenderHTML.php"
+			],
+			[
+				"postcards.p",
+				"www.rezora.com/includes/postcards.php"
+			],
+			[
+				"imagecap",
+				"www.rezora.com/includes/classes/ImageCapture.class.php"
+			],
+			[
+				"createdisplay",
+				"www.rezora.com/create_displayad.php"
+			],
+			[
+				"markcretdist",
+				"www.rezora.com/marketing_create_distribute.php"
+			],
+			[
+				"inclnews",
+				"www.rezora.com/includes/newsletters.php"
+			],
+			[
+				"inclunewsl",
+				"www.rezora.com/includes/newsletters.php"
+			],
+			[
+				"emssend",
+				"www.rezora.com/includes/ems/ems_send.php"
+			],
+			[
+				"listing.clas",
+				"www.rezora.com/includes/classes/MLS/Listing.class.php"
+			],
+			[
+				"dashboarmyli",
+				"www.rezora.com/dashboard_mylistings.php"
+			],
+			[
+				"glo",
+				"www.rezora.com/scripts/global.js"
+			],
+			[
+				"das",
+				"www.rezora.com/dashboard.php"
+			],
+			[
+				"libar",
+				"www.rezora.com/includes/library.php"
+			],
+			[
+				"includcreate.php",
+				"www.rezora.com/includes/create.php"
+			],
+			[
+				"brokercrettempl",
+				"www.rezora.com/broker_create_template.php"
+			],
+			[
+				"brokermarkcrettempl",
+				"www.rezora.com/broker_marketing_create_template_list.php"
+			],
+			[
+				"markettemplate",
+				"www.rezora.com/includes/classes/Marketing/Template.class.php"
+			],
+			[
+				"brokermarknewslists",
+				"www.rezora.com/broker_marketing_newsletters_lists.php"
+			],
+			[
+				"broker_marking.php",
+				"www.rezora.com/broker_marketing.php"
+			],
+			[
+				"rezora.inc.php",
+				"www.rezora.com/amember/plugins/protect/rezora/rezora.inc.php"
+			],
+			[
+				"marketinglistcomp",
+				"www.rezora.com/marketing_list_completed.php"
+			],
+			[
+				"broker_dash",
+				"www.rezora.com/broker_dashboard.php"
+			],
+			[
+				"marketingstats",
+				"www.rezora.com/marketing_stats.php"
+			],
+			[
+				"template_home",
+				"www.rezora.com/themes/default/template_home.php"
+			],
+			[
+				"libarr",
+				"www.rezora.com/includes/library.php"
+			],
+			[
+				"broker_ourlistings_details",
+				"www.rezora.com/broker_ourlistings_details.php"
+			],
+			[
+				"brokerourlisting",
+				"www.rezora.com/broker_ourlistings.php"
+			],
+			[
+				"template.php",
+				"www.rezora.com/themes/xpressdocs_sso/template.php"
+			],
+			[
+				"global",
+				"www.rezora.com/scripts/global-v1.10.js"
+			],
+			[
+				"globa",
+				"www.rezora.com/scripts/global.js"
+			],
+			[
+				"marketing.php",
+				"www.rezora.com/marketing.php"
+			],
+			[
+				"scripts/global",
+				"www.rezora.com/scripts/global.js"
+			],
+			[
+				"incnewslet",
+				"www.rezora.com/includes/newsletters.php"
+			],
+			[
+				"listingstatus",
+				"www.rezora.com/listing_stats_public.php"
+			],
+			[
+				"agentmylistde",
+				"www.rezora.com/agent_mylistings_details.php"
+			],
+			[
+				"openpi.c",
+				"www.rezora.com/includes/classes/Charts/OpenPie.class.php"
+			],
+			[
+				"chartspie",
+				"www.rezora.com/includes/classes/Charts/OpenPie.class.php"
+			],
+			[
+				"marketingtemplate",
+				"www.rezora.com/marketing_create_template.php"
+			],
+			[
+				"markettemplate.clas",
+				"www.rezora.com/includes/classes/Marketing/Template.class.php"
+			],
+			[
+				"markennewsdetail",
+				"www.rezora.com/marketing_newsletters_details.php"
+			],
+			[
+				"brokermarknewsdet",
+				"www.rezora.com/broker_marketing_newsletters_details.php"
+			],
+			[
+				"templatedetails",
+				"www.rezora.com/admin/templates_details.php"
+			],
+			[
+				"markeinglistcomp",
+				"www.rezora.com/marketing_list_completed.php"
+			],
+			[
+				"imagecap.js",
+				"www.rezora.com/scripts/image_capture.js"
+			],
+			[
+				"imageca",
+				"www.rezora.com/includes/classes/ImageCapture.class.php"
+			],
+			[
+				"create_click",
+				"www.rezora.com/create_clicktoplay.php"
+			],
+			[
+				"marketing_create_listings",
+				"www.rezora.com/marketing_create_listings.php"
+			],
+			[
+				"agent_mylistings_details",
+				"www.rezora.com/agent_mylistings_details.php"
+			],
+			[
+				"dashboard_mylistings",
+				"www.rezora.com/dashboard_mylistings.php"
+			],
+			[
+				"dashbo",
+				"www.rezora.com/dashboard.php"
+			],
+			[
+				"broker_marketing_newsletters_lists",
+				"www.rezora.com/broker_marketing_newsletters_lists.php"
+			],
+			[
+				"evenlistv3",
+				"www.rezora.com/includes/ems/sendgrid_event_listener_v3.php"
+			],
+			[
+				"brokerdashrece",
+				"www.rezora.com/broker_dashboard_recent_postcards.php"
+			],
+			[
+				"agnetmylistlist",
+				"www.rezora.com/agent_mylistings_list.php"
+			],
+			[
+				"scripts/",
+				"www.rezora.com/scripts/global.js"
+			],
+			[
+				"mylisting",
+				"www.rezora.com/agent_mylistings.php"
+			],
+			[
+				"scripts",
+				"www.rezora.com/themes/default/scripts/scripts.js"
+			],
+			[
+				"brokerstatli",
+				"www.rezora.com/admin/brokerages_status_list.php"
+			],
+			[
+				"admin/broker",
+				"www.rezora.com/admin/brokerages.php"
+			],
+			[
+				"admin/brokerlist",
+				"www.rezora.com/admin/brokerages_list.php"
+			],
+			[
+				"xpressdocsss",
+				"www.rezora.com/themes/xpressdocs_sso/styles/styles.css"
+			],
+			[
+				"xpressytles.css",
+				"www.rezora.com/themes/xpressdocs/styles/styles.css"
+			],
+			[
+				"html",
+				"www.rezora.com/min/lib/Minify/HTML.php"
+			],
+			[
+				"defaultsty",
+				"www.rezora.com/themes/default/styles/styles.css"
+			],
+			[
+				"brokerourlist",
+				"www.rezora.com/broker_ourlistings.php"
+			],
+			[
+				"librar",
+				"www.rezora.com/includes/library.php"
+			],
+			[
+				"listings.clas",
+				"www.rezora.com/includes/classes/MLS/Listings.class.php"
+			],
+			[
+				"mlslisting.c",
+				"www.rezora.com/includes/classes/MLS/Listing.class.php"
+			],
+			[
+				"marketinglistcompl",
+				"www.rezora.com/marketing_list_completed.php"
+			],
+			[
+				"brokerourlistlist",
+				"www.rezora.com/broker_ourlistings_list.php"
+			],
+			[
+				"marketing_stats_retargeting",
+				"www.rezora.com/marketing_stats_retargeting.php"
+			],
+			[
+				"brokerdash",
+				"www.rezora.com/broker_dashboard.php"
+			],
+			[
+				"brokermarkcretemplist",
+				"www.rezora.com/broker_marketing_create_template_list.php"
+			],
+			[
+				"brokermarketing.php",
+				"www.rezora.com/broker_marketing.php"
+			],
+			[
+				"brokermarklistpost",
+				"www.rezora.com/broker_marketing_list_postcards.php"
+			],
+			[
+				"emsevenli",
+				"www.rezora.com/includes/ems/sendgrid_event_listener_v3.php"
+			],
+			[
+				"brand_mar",
+				"www.rezora.com/brand_marketing.php"
+			],
+			[
+				"listingstats",
+				"www.rezora.com/listing_stats_public.php"
+			],
+			[
+				"shared.php",
+				"www.rezora.com/includes/tinymce/shared.php"
+			],
+			[
+				"timymceser",
+				"www.rezora.com/scripts/matt/Util/TinyMCEService.js"
+			],
+			[
+				"mattser",
+				"www.rezora.com/scripts/matt/MATTService.js"
+			],
+			[
+				"wellcomlaog",
+				"www.rezora.com/includes/classes/WellcomeMat/Log.class.php"
+			],
+			[
+				"confiproduc",
+				"www.rezora.com/includes/config/production.php"
+			],
+			[
+				"wllcommat",
+				"www.rezora.com/includes/classes/WellcomeMat/WellcomeMatImport.class.php"
+			],
+			[
+				"cronimporw",
+				"www.rezora.com/cron_import_wellcomemat.php"
+			],
+			[
+				"marknewslmylist",
+				"www.rezora.com/marketing_newsletters_mylistings.php"
+			],
+			[
+				"template.class.php",
+				"www.rezora.com/includes/classes/Marketing/Template.class.php"
+			],
+			[
+				"create.php",
+				"www.rezora.com/includes/create.php"
+			],
+			[
+				"mlslistings.cl",
+				"www.rezora.com/includes/classes/MLS/Listings.class.php"
+			],
+			[
+				"markecretlist",
+				"www.rezora.com/marketing_create_listings.php"
+			],
+			[
+				"agentcrmproc",
+				"www.rezora.com/agent_crm_process.php"
+			],
+			[
+				"crmreview",
+				"www.rezora.com/agent_crm_review.php"
+			],
+			[
+				"crmcont",
+				"www.rezora.com/includes/classes/CloudElements/CRMcontact.class.php"
+			],
+			[
+				"broker_dashboard_brokerage_postcards",
+				"www.rezora.com/broker_dashboard_brokerage_postcards.php"
+			],
+			[
+				"brokerdashre",
+				"www.rezora.com/broker_dashboard_recent_postcards.php"
+			],
+			[
+				"dash",
+				"www.rezora.com/dashboard.php"
+			],
+			[
+				"brokermarknewde",
+				"www.rezora.com/broker_marketing_newsletters_details.php"
+			],
+			[
+				"api.clas",
+				"www.rezora.com/includes/classes/CloudElements/API.class.php"
+			],
+			[
+				"marketstats",
+				"www.rezora.com/marketing_stats.php"
+			],
+			[
+				"brokermarknewdet",
+				"www.rezora.com/broker_marketing_newsletters_details.php"
+			],
+			[
+				"brokermaknewde",
+				"www.rezora.com/broker_marketing_newsletters_details_edit.php"
+			],
+			[
+				"gitdep",
+				"www.rezora.com/gitdeploy.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
