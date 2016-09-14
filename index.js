@@ -7,7 +7,7 @@ var senseHat = require('./senseHat');
 var t1 = senseHat.getTemperature();
 var t2 = senseHat.getHumidity();
 
-var sensors = [ t1, t2, t3, t4, t5 ];
+var sensors = [ t1, t2 ];
 
 Promise.all( sensors )
   .then(results => { 
