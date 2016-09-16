@@ -11,11 +11,12 @@ var
 
 var rootDir = path.resolve(__dirname, '../senseHat');
 
-function runScript(scriptName) {
+function runScript(scriptName, args) {
   return new Promise(function (resolve, reject) {
     var options = { 
       mode: 'json', 
-      scriptPath: rootDir + '/sense'
+      scriptPath: rootDir + '/sense',
+      args: args
     }
 
     var shell = new PythonShell(scriptName, options, function (err, results) {
@@ -52,6 +53,10 @@ senseHat = {
 
   getTemperatureFromPressure: function getTemperatureFromPressure(options) {
       return runScript('get_temperature_from_pressure.py');
+  },
+
+  showMessage: function showMessage(options) {
+      return runScript('show_message.py', [options.message]);
   },
 
   testOutput: function testOutput(options) {

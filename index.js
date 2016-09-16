@@ -16,6 +16,11 @@ Promise.all( sensors )
 
     console.log(temperature);
     console.log(humidity);
+
+    senseHat.showMessage({message: 'hot'})
+      .then(result => {
+        console.log(result);
+      });
   }, reason => {
     console.log(reason)
   }
