@@ -25,6 +25,7 @@ thermostat = {
                     if ( response.statusCode == 200) {
                         var info = JSON.parse(body);
                         resolve(info);
+                        return;
                     }
                     console.log(options.url, response);
                     return;
@@ -50,6 +51,7 @@ thermostat = {
                 if (!err && response) {
                     if ( response.statusCode == 204) {
                         resolve();
+                        return;
                     }
                     console.log(options.url, response);
                     return;
