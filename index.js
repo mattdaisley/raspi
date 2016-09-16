@@ -4,27 +4,36 @@ var mattdaisleyApi = require('./mattdaisleyApi');
 
 var senseHat = require('./senseHat');
 
-var t1 = senseHat.getTemperature();
-var t2 = senseHat.getHumidity();
+// var t1 = senseHat.getTemperature();
+// var t2 = senseHat.getHumidity();
 
-var sensors = [ t1, t2 ];
+// var sensors = [ t1, t2 ];
 
-Promise.all( sensors )
-  .then(results => { 
-    var temperature = results[0];
-    var humidity = results[1];
+// Promise.all( sensors )
+//   .then(results => { 
+//     var temperature = results[0];
+//     var humidity = results[1];
 
-    console.log(temperature);
-    console.log(humidity);
+//     console.log(temperature);
+//     console.log(humidity);
 
-    senseHat.showMessage({message: 'hot'})
-      .then(result => {
-        console.log(result);
-      });
-  }, reason => {
-    console.log(reason)
-  }
-);
+//   }, reason => {
+//     console.log(reason)
+//   }
+// );
+
+mattdaisleyApi.thermostat.poll()
+  .then( function(response) {
+    var action = response.thermostat.action;
+
+    return senseHat.showMessage({message: action});
+  })
+  .then( function() {
+    console.log('message showed');
+  })
+  .catch (function(error) {
+    console.log(error);
+  });
 
 // cron.schedule('*/5 * * * * *', function(){
   

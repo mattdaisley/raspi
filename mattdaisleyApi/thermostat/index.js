@@ -1,32 +1,23 @@
 
 var 
     request          = require('request'),
-    config           = require('./config'),
-    auth             = require('./auth'),
-    lifx             = require('./lifx'),
-    thermostat       = require('./thermostat'),
-    api;
+    config           = require('../config'),
+    auth             = require('../auth'),
+    thermostat;
     
 /**
  * ### Users API Methods
  *
  * **See:** [API Methods](index.js.html#api%20methods)
  */
-api = {
+thermostat = {
 
-    getAuthToken: function getAuthToken(options) {
+    poll: function poll(options) {
 
         return new Promise(function (resolve, reject) {
             var options = {
-                url: config.apiUrl + 'auth/token/',
-                method: 'put',
-                headers: { 
-                    'content-type' : 'application/x-www-form-urlencoded'
-                },
-                form: {
-                    "email": config.username,
-                    "password": config.password
-                }
+                url: config.apiUrl + 'poll/thermostat/pi/1',
+                method: 'get'
             };
              
             function callback(err, response, body) {
@@ -45,8 +36,4 @@ api = {
 
 };
 
-api.auth = auth;
-api.lifx = lifx;
-api.thermostat = thermostat;
-
-module.exports = api;
+module.exports = thermostat;
