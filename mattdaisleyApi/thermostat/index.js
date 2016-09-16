@@ -21,13 +21,16 @@ thermostat = {
             };
              
             function callback(err, response, body) {
-                if (!err && response.statusCode == 200) {
-                    var info = JSON.parse(body);
-                    resolve(info);
-                } else {
-                    console.log(err, options.url, response.statusCode);
-                    reject('failed');
+                if (!err && response) {
+                    if ( response.statusCode == 200) {
+                        var info = JSON.parse(body);
+                        resolve(info);
+                    }
+                    console.log(options.url, response);
+                    return;
                 }
+                console.log(err, options.url, response);
+                reject('failed');
             }
              
             request(options, callback);
@@ -44,12 +47,16 @@ thermostat = {
             };
              
             function callback(err, response) {
-                if (!err && response.statusCode == 204) {
-                    resolve();
-                } else {
-                    console.log(err, options.url, response.statusCode);
-                    reject('failed');
+                if (!err && response) {
+                    if ( response.statusCode == 204) {
+                        var info = JSON.parse(body);
+                        resolve(info);
+                    }
+                    console.log(options.url, response);
+                    return;
                 }
+                console.log(err, options.url, response);
+                reject('failed');
             }
              
             request(options, callback);
