@@ -43,6 +43,8 @@ function pollForAction() {
     });
 }
 
+pollForAction();
+
 // cron.schedule('*/5 * * * * *', function(){
   
 //   mattdaisleyApi.getAuthToken()
