@@ -39,7 +39,7 @@ function pollForAction() {
       pollForAction();
     })
     .catch (function(error) {
-      console.log(error);
+      pollForAction();
     });
 }
 
