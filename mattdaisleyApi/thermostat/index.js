@@ -25,7 +25,29 @@ thermostat = {
                     var info = JSON.parse(body);
                     resolve(info);
                 } else {
-                    console.log(err, config.apiUrl + 'auth/token', response.statusCode);
+                    console.log(err, options.url, response.statusCode);
+                    reject('failed');
+                }
+            }
+             
+            request(options, callback);
+        });
+    },
+
+
+    destroy: function destroy(id) {
+
+        return new Promise(function (resolve, reject) {
+            var options = {
+                url: config.apiUrl + 'thermostat/' + id,
+                method: 'delete'
+            };
+             
+            function callback(err, response) {
+                if (!err && response.statusCode == 204) {
+                    resolve();
+                } else {
+                    console.log(err, options.url, response.statusCode);
                     reject('failed');
                 }
             }

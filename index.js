@@ -24,12 +24,16 @@ var senseHat = require('./senseHat');
 
 mattdaisleyApi.thermostat.poll()
   .then( function(response) {
-    var action = response.thermostat.action;
+    var action = response.thermostat[0].action;
 
     return senseHat.showMessage({message: action});
   })
   .then( function() {
     console.log('message showed');
+    return mattdaisleyApi.thermostat.destroy(response.thermostat[0].id);
+  })
+  .then( function() {
+    console.log('action confirmed');
   })
   .catch (function(error) {
     console.log(error);
