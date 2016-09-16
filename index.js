@@ -21,24 +21,27 @@ var senseHat = require('./senseHat');
 //     console.log(reason)
 //   }
 // );
-var thermostat;
+function pollForAction() {
+  var thermostat;
 
-mattdaisleyApi.thermostat.poll()
-  .then( function(response) {
-    thermostat = response.thermostat[0];
+  mattdaisleyApi.thermostat.poll()
+    .then( function(response) {
+      thermostat = response.thermostat[0];
 
-    return senseHat.showMessage({message: thermostat.action});
-  })
-  .then( function() {
-    console.log('message showed');
-    return mattdaisleyApi.thermostat.destroy(thermostat.id);
-  })
-  .then( function() {
-    console.log('action confirmed');
-  })
-  .catch (function(error) {
-    console.log(error);
-  });
+      return senseHat.showMessage({message: thermostat.action});
+    })
+    .then( function() {
+      console.log('message showed');
+      return mattdaisleyApi.thermostat.destroy(thermostat.id);
+    })
+    .then( function() {
+      console.log('action confirmed');
+      pollForAction();
+    })
+    .catch (function(error) {
+      console.log(error);
+    });
+}
 
 // cron.schedule('*/5 * * * * *', function(){
   
