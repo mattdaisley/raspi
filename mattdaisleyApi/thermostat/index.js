@@ -49,8 +49,7 @@ thermostat = {
             function callback(err, response) {
                 if (!err && response) {
                     if ( response.statusCode == 204) {
-                        var info = JSON.parse(body);
-                        resolve(info);
+                        resolve();
                     }
                     console.log(options.url, response);
                     return;
