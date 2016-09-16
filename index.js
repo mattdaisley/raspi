@@ -21,16 +21,17 @@ var senseHat = require('./senseHat');
 //     console.log(reason)
 //   }
 // );
+var thermostat;
 
 mattdaisleyApi.thermostat.poll()
   .then( function(response) {
-    var action = response.thermostat[0].action;
+    thermostat = response.thermostat[0];
 
-    return senseHat.showMessage({message: action});
+    return senseHat.showMessage({message: thermostat.action});
   })
   .then( function() {
     console.log('message showed');
-    return mattdaisleyApi.thermostat.destroy(response.thermostat[0].id);
+    return mattdaisleyApi.thermostat.destroy(thermostat.id);
   })
   .then( function() {
     console.log('action confirmed');
