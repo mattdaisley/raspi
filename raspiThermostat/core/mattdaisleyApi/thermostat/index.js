@@ -41,6 +41,7 @@ thermostat = {
             var options = {
                 url: config.apiUrl + '/thermostat/pi/1/sensors',
                 method: 'put',
+                header: {
                     'content-type' : 'application/x-www-form-urlencoded'
                 },
                 form: {
