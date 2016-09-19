@@ -30,6 +30,12 @@ function runScript(scriptName, args) {
       resolve(message.result);
     });
 
+    shell.end(function (err) {
+      if ( err ) {
+        throw err;
+      }
+    });
+
   });
 }
 

@@ -30,7 +30,6 @@ thermostat = {
                     console.log(options.url, response);
                     return;
                 }
-                console.log(err, options.url, response);
                 reject('failed');
             }
              
