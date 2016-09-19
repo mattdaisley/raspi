@@ -59,7 +59,7 @@ appServer.prototype.readSensors = function() {
 
 appServer.prototype.startCron = function() {
   var self = this;
-  cron.schedule('*/10 * * * * *', function(){
+  cron.schedule('*/1 * * * *', function(){
     self.readSensors().then( result => {
       console.log(result);
     })
