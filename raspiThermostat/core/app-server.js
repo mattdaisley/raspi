@@ -33,7 +33,8 @@ appServer.prototype.pollForAction = function() {
       console.log(err, 'retrying in ' + parseInt(1000 * self.retryCount));
       console.log(self.retryTimeout);
       if ( !self.retryTimeout ) self.retryTimeout = setInterval(self.pollForAction, (1000 * self.retryCount) );
-      if ( self.retryCount < 60 ) { self.retryCount = self.retryCount + 5; }
+      if ( self.retryCount < 60 ) { self.retryCount = self.retryCount + 5; console.log(self.retryCount, typeof(self.retryCount)); }
+
     });
 };
 
