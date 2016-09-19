@@ -39,14 +39,16 @@ appServer.prototype.pollForAction = function() {
 appServer.prototype.readSensors = function() {
 
   return new Promise( function(resolve, reject) {
-    var temp = senseHat.getTemperature();
-    var hum = senseHat.getHumidity();
+    var temperature, humidity;
 
-    var sensors = [ temp, hum ];
-
-    Promise.all( sensors )
-      .then(results => { 
-        resolve({temperature: results[0], humidity: results[1]});
+    senseHat.getTemperature()
+      .then( result => {
+        temperature = result;
+        return senseHat.getHumidity();
+      })
+      .then( result => {
+        humidity = result;
+        resolve({temperature: temperature, humidity: humidity});
       })
       .catch(err => {
         reject(err);
