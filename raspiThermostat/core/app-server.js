@@ -34,7 +34,7 @@ appServer.prototype.pollForAction = function(retryCount, retryTimeout) {
 
       if ( retryCount < 60 ) { retryCount = retryCount + 5; }
       if ( !retryTimeout ) retryTimeout = setTimeout( function() {
-        appServer.pollForAction(retryCount, retryTimeout);
+        self.pollForAction(retryCount, retryTimeout);
       }, (1000 * retryCount ));
 
     });
