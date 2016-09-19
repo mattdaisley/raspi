@@ -32,7 +32,8 @@ thermostat = {
                 }
                 reject('failed');
             }
-             
+            
+            console.log('making requst');
             request(options, callback);
         });
     },
