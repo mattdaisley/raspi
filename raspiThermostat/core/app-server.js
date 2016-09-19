@@ -10,8 +10,8 @@ function appServer() {
 
 appServer.prototype.start = function() {
   this.pollForAction();
-  this.readSensors().then( success => {
-    // do nothing
+  this.readSensors().then( result => {
+    console.log(result);
   })
   .catch( err => {
     // console.log(err);
