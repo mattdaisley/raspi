@@ -15,6 +15,7 @@ appServer.prototype.start = function() {
 
 appServer.prototype.pollForAction = function(retryCount, retryTimeout) {
   var self = this;
+  console.log('polling');
 
   mattdaisleyApi.thermostat.poll()
     .then( response => {
