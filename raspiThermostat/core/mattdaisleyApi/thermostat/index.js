@@ -27,8 +27,6 @@ thermostat = {
                         resolve(info);
                         return;
                     }
-                    console.log(options.url, response);
-                    return;
                 }
                 reject('failed');
             }
