@@ -30,8 +30,8 @@ appServer.prototype.pollForAction = function(retryCount, retryTimeout) {
       self.pollForAction(1, undefined);
     })
     .catch( err => {
-      // console.log(err, 'retrying in ' + parseInt(1000 * self.retryCount));
-      // console.log(self.retryCount, typeof(self.retryCount));
+      console.log(err, 'retrying in ' + parseInt(1000 * retryCount));
+      console.log(retryCount, typeof(retryCount));
 
       if ( retryCount < 60 ) { retryCount = retryCount + 5; }
       if ( !retryTimeout ) retryTimeout = setTimeout( function() {
