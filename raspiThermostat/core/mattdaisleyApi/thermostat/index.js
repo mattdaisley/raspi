@@ -35,9 +35,10 @@ thermostat = {
         });
     },
 
-    addSensorData: function addSensorData(options) {
+    addSensorData: function addSensorData(object) {
 
         return new Promise(function (resolve, reject) {
+          console.log(object);
             var options = {
                 url: config.apiUrl + '/thermostat/pi/1/sensors',
                 method: 'put',
@@ -45,8 +46,8 @@ thermostat = {
                     'content-type' : 'application/x-www-form-urlencoded'
                 },
                 form: {
-                    "temperature": options.temperature,
-                    "humidity": options.humidity
+                    "temperature": object.temperature,
+                    "humidity": object.humidity
                 }
             };
              
