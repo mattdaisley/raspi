@@ -26,6 +26,7 @@ appServer.prototype.pollForAction = function() {
     })
     .then( result => {
       self.retryTimeout = 1;
+      clearInterval(self.retryTimeout);
       self.pollForAction();
     })
     .catch( err => {
