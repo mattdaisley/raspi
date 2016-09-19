@@ -14,7 +14,6 @@ appServer.prototype.start = function() {
 
 appServer.prototype.pollForAction = function() {
   var self = this;
-  console.log('polling');
 
   mattdaisleyApi.thermostat.poll()
     .then( response => {
@@ -28,8 +27,6 @@ appServer.prototype.pollForAction = function() {
       self.pollForAction();
     })
     .catch( err => {
-      console.log(err, 'retrying');
-
       setTimeout( function() {
         self.pollForAction();
       }, 1000);
