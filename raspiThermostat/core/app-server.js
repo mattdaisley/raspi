@@ -10,12 +10,7 @@ function appServer() {
 
 appServer.prototype.start = function() {
   this.pollForAction();
-  this.readSensors().then( result => {
-    console.log(result);
-  })
-  .catch( err => {
-    // console.log(err);
-  });
+  this.startCron();
 };
 
 appServer.prototype.pollForAction = function() {
@@ -59,7 +54,15 @@ appServer.prototype.readSensors = function() {
 };
 
 appServer.prototype.startCron = function() {
-
+  var self = this;
+  cron.schedule('10 * * * * *', function(){
+    self.readSensors().then( result => {
+      console.log(result);
+    })
+    .catch( err => {
+      console.log(err);
+    });
+  });
 };
 
 module.exports = appServer;
