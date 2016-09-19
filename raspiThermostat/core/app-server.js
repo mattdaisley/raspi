@@ -4,18 +4,17 @@ var cron           = require('node-cron'),
 
 function appServer() {
   this.retryCount = 1;
-  this.retryTimeout = undefined;
   this.thermostat = undefined;
 }
 
 appServer.prototype.start = function() {
-  this.pollForAction(1, undefined);
+  this.pollForAction(1);
   this.startCron();
 };
 
-appServer.prototype.pollForAction = function(retryCount, retryTimeout) {
+appServer.prototype.pollForAction = function() {
   var self = this;
-  console.log('polling', retryCount, retryTimeout);
+  console.log('polling');
 
   mattdaisleyApi.thermostat.poll()
     .then( response => {
@@ -26,17 +25,14 @@ appServer.prototype.pollForAction = function(retryCount, retryTimeout) {
       return mattdaisleyApi.thermostat.destroy(self.thermostat.id);
     })
     .then( result => {
-      clearTimeout(retryTimeout);
-      self.pollForAction(1, undefined);
+      self.pollForAction();
     })
     .catch( err => {
-      console.log(err, 'retrying in ' + parseInt(1000 * retryCount));
-      console.log(retryCount, typeof(retryCount));
+      console.log(err, 'retrying');
 
-      if ( retryCount < 60 ) { retryCount = retryCount + 5; }
-      if ( !retryTimeout ) retryTimeout = setTimeout( function() {
-        self.pollForAction(retryCount, retryTimeout);
-      }, (1000 * retryCount ));
+      setTimeout( function() {
+        self.pollForAction();
+      }, 1000);
 
     });
 };
