@@ -35,6 +35,35 @@ thermostat = {
         });
     },
 
+    addSensorData: function addSensorData(options) {
+
+        return new Promise(function (resolve, reject) {
+            var options = {
+                url: config.apiUrl + '/thermostat/pi/1/sensors',
+                method: 'put',
+                    'content-type' : 'application/x-www-form-urlencoded'
+                },
+                form: {
+                    "temperature": options.temperature,
+                    "humidity": options.humidity
+                }
+            };
+             
+            function callback(err, response, body) {
+                if (!err && response) {
+                    if ( response.statusCode == 200) {
+                        var info = JSON.parse(body);
+                        resolve(info);
+                        return;
+                    }
+                }
+                reject('failed');
+            }
+            
+            request(options, callback);
+        });
+    },
+
 
     destroy: function destroy(id) {
 
