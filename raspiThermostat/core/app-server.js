@@ -25,7 +25,7 @@ appServer.prototype.pollForAction = function() {
       return mattdaisleyApi.thermostat.destroy(self.thermostat.id);
     })
     .then( result => {
-      self.retryTimeout = 1;
+      self.retryCount = 1;
       clearInterval(self.retryTimeout);
       self.pollForAction();
     })
