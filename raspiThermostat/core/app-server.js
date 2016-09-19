@@ -9,11 +9,11 @@ function appServer() {
 }
 
 appServer.prototype.start = function() {
-  this.pollForAction();
+  this.pollForAction(1, undefined);
   this.startCron();
 };
 
-appServer.prototype.pollForAction = function() {
+appServer.prototype.pollForAction = function(retryCount, retryTimeout) {
   var self = this;
 
   mattdaisleyApi.thermostat.poll()
@@ -25,15 +25,17 @@ appServer.prototype.pollForAction = function() {
       return mattdaisleyApi.thermostat.destroy(self.thermostat.id);
     })
     .then( result => {
-      self.retryCount = 1;
-      clearInterval(self.retryTimeout);
-      self.pollForAction();
+      clearTimeout(retryTimeout);
+      self.pollForAction(1, undefined);
     })
     .catch( err => {
-      console.log(err, 'retrying in ' + parseInt(1000 * self.retryCount));
-      console.log(self.retryTimeout);
-      if ( !self.retryTimeout ) self.retryTimeout = setInterval(self.pollForAction, (1000 * self.retryCount) );
-      if ( self.retryCount < 60 ) { self.retryCount = self.retryCount + 5; console.log(self.retryCount, typeof(self.retryCount)); }
+      // console.log(err, 'retrying in ' + parseInt(1000 * self.retryCount));
+      // console.log(self.retryCount, typeof(self.retryCount));
+
+      if ( retryCount < 60 ) { retryCount = retryCount + 5; }
+      if ( !retryTimeout ) retryTimeout = setTimeout( function() {
+        appServer.pollForAction(retryCount, retryTimeout);
+      }, (1000 * retryCount ));
 
     });
 };
