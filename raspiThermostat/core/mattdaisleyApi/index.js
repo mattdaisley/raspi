@@ -5,6 +5,7 @@ var
     auth             = require('./auth'),
     lifx             = require('./lifx'),
     thermostat       = require('./thermostat'),
+    wifihosts        = require('./wifihosts'),
     api;
     
 /**
@@ -48,5 +49,6 @@ api = {
 api.auth = auth;
 api.lifx = lifx;
 api.thermostat = thermostat;
+api.wifihosts = wifihosts;
 
 module.exports = api;

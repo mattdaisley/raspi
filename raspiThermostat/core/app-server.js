@@ -1,6 +1,7 @@
 var cron           = require('node-cron'),
     mattdaisleyApi = require('./mattdaisleyApi'),
-    senseHat       = require('./senseHat');
+    senseHat       = require('./senseHat')
+    wifiScanner    = require('./wifiScanner');
 
 function appServer() {
   this.retryCount = 1;
@@ -54,15 +55,26 @@ appServer.prototype.readSensors = function() {
   })
 };
 
+
 appServer.prototype.startCron = function() {
   var self = this;
   cron.schedule('*/5 * * * *', function(){
     self.readSensors().then( result => {
-      mattdaisleyApi.thermostat.addSensorData(result);
+      // mattdaisleyApi.thermostat.addSensorData(result);
     })
     .catch( err => {
       console.log(err);
     });
+  });
+
+  cron.schedule('*/30 * * * * *', function(){
+    wifiScanner.scanNetwork()
+      .then( result => {
+        mattdaisleyApi.wifihosts.addHosts(result);
+      })
+      .catch(err => {
+        reject(err);
+      });
   });
 };
 
