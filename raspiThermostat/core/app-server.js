@@ -56,7 +56,7 @@ appServer.prototype.readSensors = function() {
 
 appServer.prototype.startCron = function() {
   var self = this;
-  cron.schedule('*/1 * * * *', function(){
+  cron.schedule('*/5 * * * *', function(){
     self.readSensors().then( result => {
       mattdaisleyApi.thermostat.addSensorData(result);
     })

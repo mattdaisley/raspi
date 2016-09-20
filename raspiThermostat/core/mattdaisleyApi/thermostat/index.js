@@ -38,7 +38,7 @@ thermostat = {
     addSensorData: function addSensorData(object) {
 
         return new Promise(function (resolve, reject) {
-          console.log(object);
+            console.log(object);
             var options = {
                 url: config.apiUrl + '/thermostat/pi/1/sensors',
                 method: 'put',
