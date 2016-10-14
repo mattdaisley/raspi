@@ -17,3 +17,5 @@ except KeyboardInterrupt:
 
   # Reset GPIO settings
   GPIO.cleanup()
+  
+print(json.dumps( { 'result': 'off' } ));
