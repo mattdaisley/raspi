@@ -18,7 +18,7 @@ function appServer() {
 appServer.prototype.start = function() {
 
   this.pollForAction();
-  this.startCron();
+  // this.startCron();
 };
 
 appServer.prototype.allRelaysOn = function() {
@@ -41,7 +41,8 @@ appServer.prototype.pollForAction = function() {
   mattdaisleyApi.thermostat.poll()
     .then( response => {
       self.thermostat = response.thermostat[0];
-      return senseHat.showMessage({message: self.thermostat.action});
+      console.log(self.thermostat);
+      // return senseHat.showMessage({message: self.thermostat.action});
     })
     .then( result => {
       return mattdaisleyApi.thermostat.destroy(self.thermostat.id);
