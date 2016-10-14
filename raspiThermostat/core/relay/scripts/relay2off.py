@@ -2,6 +2,7 @@
 
 import RPi.GPIO as GPIO
 import time
+import json
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(3, GPIO.OUT) 
