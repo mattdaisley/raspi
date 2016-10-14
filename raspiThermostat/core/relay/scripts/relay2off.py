@@ -4,6 +4,8 @@ import RPi.GPIO as GPIO
 import time
 import json
 
+GPIO.setwarnings(False)
+
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(3, GPIO.OUT) 
 
@@ -16,5 +18,5 @@ except KeyboardInterrupt:
 
   # Reset GPIO settings
   GPIO.cleanup()
-  
+
 print(json.dumps( { 'result': 'off' } ));

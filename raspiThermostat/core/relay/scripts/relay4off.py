@@ -4,6 +4,8 @@ import RPi.GPIO as GPIO
 import time
 import json
 
+GPIO.setwarnings(False)
+
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(17, GPIO.OUT) 
 
