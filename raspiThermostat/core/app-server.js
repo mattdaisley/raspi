@@ -6,17 +6,17 @@ var cron           = require('node-cron'),
 function appServer() {
   this.retryCount = 1;
   this.thermostat = undefined;
-}
-
-appServer.prototype.start = function() {
   
   // call the first chunk of code right away
   this.allRelaysOn();
 
   // call the rest of the code and have it execute after 3 seconds
   setTimeout(this.allRelaysOff, 1000);
+}
 
-  this.pollForAction(1);
+appServer.prototype.start = function() {
+
+  this.pollForAction();
   this.startCron();
 };
 
