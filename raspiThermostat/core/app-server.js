@@ -9,6 +9,7 @@ function appServer() {
   
   // call the first chunk of code right away
   this.allRelaysOn();
+  console.log('in appserver');
 
   // call the rest of the code and have it execute after 3 seconds
   setTimeout(this.allRelaysOff, 1000);

@@ -9,12 +9,10 @@ GPIO.setup(4, GPIO.OUT)
 
 try:
   GPIO.output(4, GPIO.HIGH)
-  print "OFF"
 
 
 # End program cleanly with keyboard
 except KeyboardInterrupt:
-  print "  Quit"
 
   # Reset GPIO settings
   GPIO.cleanup()
