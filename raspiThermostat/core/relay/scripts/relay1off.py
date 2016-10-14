@@ -4,10 +4,10 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(4, GPIO.OUT) 
+GPIO.setup(2, GPIO.OUT) 
 
 try:
-  GPIO.output(4, GPIO.HIGH)
+  GPIO.output(2, GPIO.HIGH)
   print "OFF"
 
 
