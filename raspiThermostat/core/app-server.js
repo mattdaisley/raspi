@@ -1,6 +1,7 @@
 var cron           = require('node-cron'),
     mattdaisleyApi = require('./mattdaisleyApi'),
-    senseHat       = require('./senseHat');
+    senseHat       = require('./senseHat'),
+    relay          = require('./relay');
 
 function appServer() {
   this.retryCount = 1;
@@ -8,6 +9,16 @@ function appServer() {
 }
 
 appServer.prototype.start = function() {
+  relay.relay1on();
+  relay.relay2on();
+  relay.relay3on();
+  relay.relay4on();
+  setTimeout( function() {
+    relay.relay1off();
+    relay.relay2off();
+    relay.relay3off();
+    relay.relay4off();
+  }, 1000);
   this.pollForAction(1);
   this.startCron();
 };
