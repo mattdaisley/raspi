@@ -41,13 +41,37 @@ function runScript(scriptName, args) {
 
 relay = {
 
-  p2on: function p2on(options) {
-      return runScript('p2on.py');
+  relay1on: function relay1on(options) {
+      return runScript('relay1on.py');
   },
 
-  p2off: function p2off(options) {
-      return runScript('p2off.py');
-  }
+  relay1off: function relay1off(options) {
+      return runScript('relay1off.py');
+  },
+
+  relay2on: function relay2on(options) {
+      return runScript('relay2on.py');
+  },
+
+  relay2off: function relay2off(options) {
+      return runScript('relay2off.py');
+  },
+
+  relay3on: function relay3on(options) {
+      return runScript('relay3on.py');
+  },
+
+  relay3off: function relay3off(options) {
+      return runScript('relay3off.py');
+  },
+
+  relay4on: function relay4on(options) {
+      return runScript('relay4on.py');
+  },
+
+  relay4off: function relay4off(options) {
+      return runScript('relay4off.py');
+  },
 
 };
 
