@@ -9,18 +9,29 @@ function appServer() {
 }
 
 appServer.prototype.start = function() {
+  
+  // call the first chunk of code right away
+  this.allRelaysOn();
+
+  // call the rest of the code and have it execute after 3 seconds
+  setTimeout(this.allRelaysOff, 1000);
+
+  this.pollForAction(1);
+  this.startCron();
+};
+
+appServer.prototype.allRelaysOn = function() {
   relay.relay1on();
   relay.relay2on();
   relay.relay3on();
   relay.relay4on();
-  setTimeout( function() {
-    relay.relay1off();
-    relay.relay2off();
-    relay.relay3off();
-    relay.relay4off();
-  }, 1000);
-  this.pollForAction(1);
-  this.startCron();
+};
+
+appServer.prototype.allRelaysOff = function() {
+  relay.relay1off();
+  relay.relay2off();
+  relay.relay3off();
+  relay.relay4off();
 };
 
 appServer.prototype.pollForAction = function() {
