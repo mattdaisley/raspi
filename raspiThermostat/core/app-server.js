@@ -41,7 +41,11 @@ appServer.prototype.pollForAction = function() {
   mattdaisleyApi.thermostat.poll()
     .then( response => {
       self.thermostat = response.thermostat[0];
-      console.log(self.thermostat);
+      if ( self.thermostat.action == 'on' ) {
+        relay.on({'relay': parseInt(self.thermostat.relay)});
+      } else {
+        relay.off({'relay': parseInt(self.thermostat.relay)});
+      }
       // return senseHat.showMessage({message: self.thermostat.action});
     })
     .then( result => {

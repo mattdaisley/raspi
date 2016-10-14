@@ -41,6 +41,40 @@ function runScript(scriptName, args) {
 
 relay = {
 
+  on: function on(options) {
+    switch(options.relay) {
+      case 1:
+        this.relay1on();
+        break;
+      case 2:
+        this.relay2on();
+        break;
+      case 3:
+        this.relay3on();
+        break;
+      case 4:
+        this.relay4on();
+        break;
+    }
+  },
+
+  off: function on(options) {
+    switch(options.relay) {
+      case 1:
+        this.relay1off();
+        break;
+      case 2:
+        this.relay2off();
+        break;
+      case 3:
+        this.relay3off();
+        break;
+      case 4:
+        this.relay4off();
+        break;
+    }
+  },
+
   relay1on: function relay1on(options) {
       return runScript('relay1on.py');
   },
